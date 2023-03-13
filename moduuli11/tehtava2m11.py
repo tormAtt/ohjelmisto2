@@ -36,8 +36,8 @@ while True:
     polttoAuto.kiihdyta(100)
     polttoAuto.kulje(1)
 
-    print("Rekisteritunnus: " + str(sahkoAuto.rTunnus) + ", nykyinen nopeus: " + str(sahkoAuto.nykyinenNopeus) + ", kuljettu matka:: " + str(sahkoAuto.kuljettuMatka))
-    print("Rekisteritunnus: " + str(polttoAuto.rTunnus) + ", nykyinen nopeus: " + str(polttoAuto.nykyinenNopeus) + ", kuljettu matka: " + str(polttoAuto.kuljettuMatka))
+    print("Rekisteritunnus: " + str(sahkoAuto.rTunnus) + ", nykyinen nopeus: " + str(sahkoAuto.nykyinenNopeus) + " km/h, kuljettu matka:: " + str(sahkoAuto.kuljettuMatka) + " km, akun kapasiteetti:" + str(sahkoAuto.akkuKapasiteetti) + " kWh")
+    print("Rekisteritunnus: " + str(polttoAuto.rTunnus) + ", nykyinen nopeus: " + str(polttoAuto.nykyinenNopeus) + "km/h , kuljettu matka: " + str(polttoAuto.kuljettuMatka) + " km, bensatankki:" + str(polttoAuto.bensaTankki) + " l")
     tunnit += 1
     if tunnit == 3:
         break
